@@ -1,4 +1,4 @@
-# AFW Wordle
+# AFW 
 
 A Wordle-inspired word game built as a group project during Dev Academy Aotearoa.
 
