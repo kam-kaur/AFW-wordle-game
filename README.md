@@ -1,34 +1,35 @@
-# Boilerplate: Fullstack with Sass
+# AFW Wordle
 
-## Setup
+A Wordle-inspired word game built as a group project during Dev Academy Aotearoa.
 
-### What's included
+The idea was simple: pick a word, make your guesses, and see how quickly you can crack it. The word length can change from round to round and there’s no limit on the number of guesses. Once you finish, your score is tracked so you can see how you stack up on the leaderboard.
 
-This repo includes:
+## My role
 
-* a single, simple API endpoint (`/api/v1/fruits`)
-* a single React component (`<App />`)
-* basic routing setup (`routes.tsx`)
-* an example database module (`server/db/fruits.js`)
-* an API client module (`client/apis/fruits.js`)
-* configuration for Vitest and testing library
-* configuration for server-side debugging in VS Code
-* configuration for preprocessing Sass
+This was a collaborative project, and my role covered both the technical side of development and the way our team worked together.
 
-### Installation
+On the technical side, I contributed to frontend components, API requests and game logic, client-side testing, and interactive features such as sound effects and the Give Up functionality. I also shaped the visual side of the game, working on the styling, colours, themes and typography to create its overall look and feel. I worked with Git and GitHub throughout the project, including branching, pull requests and integrating changes with the team.
 
-#### **From the Github UI**
+I was also our official **Vibes Watcher**, a role focused on keeping the team connected, supported and enjoying the process. I led stand-ups and retrospectives, contributed to planning, helped keep communication flowing, and brought a bit of fun and energy when things got challenging.
 
-See the instructions [here](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template) to use Github's feature to create a new repo from a template.
+## What you can do
 
-```
-git clone [your-project-ssh-address]
-cd [your-project-name]
-npm install # to install dependencies
-npm run dev # to start the dev server
-```
+* Guess words and get feedback as you play
+* Play rounds with words of different lengths
+* Keep guessing until you solve the word or give up
+* Track your scores and game results
+* View the leaderboard and compare scores
+* Create an account and keep your games connected to you
+* Enjoy sound effects and other interactive touches
 
-You can find the server running on [http://localhost:3000](http://localhost:3000) and the client running on [http://localhost:5173](http://localhost:5173).
+## Tech stack
 
----
-[Provide feedback on this repo](https://docs.google.com/forms/d/e/1FAIpQLSfw4FGdWkLwMLlUaNQ8FtP2CTJdGDUv6Xoxrh19zIrJSkvT4Q/viewform?usp=pp_url&entry.1958421517=boilerplate-fullstack)
+* React
+* TypeScript
+* Vite
+* Express
+* SQLite
+* Auth0
+* TanStack Query
+* Tailwind CSS
+* Vitest
