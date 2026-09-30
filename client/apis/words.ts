@@ -1,5 +1,5 @@
 import request from 'superagent'
-import { RandomWord, Word, CheckGuessResult } from '../../models/word'
+import { RandomWord, CheckGuessResult } from '../../models/word'
 
 const rootURL = new URL(`/api/v1`, document.baseURI)
 
@@ -11,7 +11,7 @@ export async function getRandomWord(): Promise<RandomWord> {
 
 // function calling the backend/server to get a word by its id
 // used when the player clicks give up & needs to see what the word is
-export async function revealWord(id: number): Promise<Word | string> {
+export async function revealWord(id: number): Promise<string> {
   const response = await request.get(`${rootURL}/words/${id}/reveal`)
   return response.body.word
 }
